@@ -2,10 +2,10 @@ README
 ===============================
 ###1、基本结构（没做界面美化了）  
 （1）标题，旁边放start按钮和submit按钮；  
-（2）方便每次游戏实时查看数据所以把四个结果参数"totalWordCount",  
-"correctWordCount","totalWrongGuessCount", "score"放在第二行;  
-（3）接下来就是开始游戏，即get a word按钮；  
-（4）word,guess,getresult部分很明显，guess下面两个错误次数和总可错次数都有；      
+（2）接下来就是开始游戏，即get a word按钮；  
+（3）word,guess,getresult部分很明显，guess下面两个错误次数和总可错次数都有；
+（4）方便每次游戏实时查看数据所以把四个结果参数"totalWordCount",  
+"correctWordCount","totalWrongGuessCount", "score"放在下面显示;  
 （5）本来想在这儿放个键盘的，感觉没有也行于是没写，下次可以试试，这次时间不够了。   
 
 ===============================
