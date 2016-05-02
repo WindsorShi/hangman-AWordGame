@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>wordgame</title>
+    <link rel="stylesheet" href="wordgame.css">
+    <script type="text/javascript" src="jquery-1.12.3.js"></script>
+    <script  src="wordgame.js"></script>
+</head>
+
+<body>
+<form action="">
+    <div class="wrapper">
+        <header>
+            <div>
+                <span>Word Game</span>
+            </div>
+            
+            <div>
+                <input type="button" id="start" value="START">
+            </div>
+        
+            <div>
+                <input type="submit" id="submit" value="SUBMIT" >
+            </div>
+        </header>
+        <article>
+            <div>
+                <div>
+                    <input type="button" id="geranewword" value="Click to get a new word" onclick="getAWord();">
+                </div>
+            </div>
+            <div>
+                Word:
+                <input type="text" id="word">
+            </div>
+            <div>
+                Guess:
+                <input type="text" id="guessword"> <!-- onkeyup="upperCase(this.id)" -->
+                 <p>
+                    <input type="text" id="wgn">wrong guess count of current word.
+                </p>
+                <p>
+                    <input type="text" id="tagn">times of guess is allowed for each word.
+                </p>
+            </div>
+        </article>
+        <footer>
+            <div>
+                <input type="button" value="Get your result " id="result">
+            </div>
+            <div class="inform ">
+                totalWordCount:<input type="text " id="totalWordCount"> 
+                correctWordCount:<input type="text" id="correctWordCount"> 
+                totalWrongGuessCount:<input type="text" id="totalWrongGuessCount"> 
+                score:<input type="text " id="score">
+            </div>
+
+        </footer>
+    </div>
+    </form>
+</body>
+
+</html>

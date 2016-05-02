@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header>div {
+    display: inline-block;
+    height: 50px;
+    width: 100px;
+    margin-right: 75px;
+}
+
+header>div>span {
+    font-size: 45px;
+}
+
+article> div {
+    padding: 10px;
+}
+
+article>div>p>input {
+    width: 20px;
+}
+
+footer> div {
+    padding: 10px;
+}
+
+.inform >input {
+    width: 20px;
+}
+
+.inform {
+    letter-spacing: -1px;
+    padding-bottom: 16px;
+}
